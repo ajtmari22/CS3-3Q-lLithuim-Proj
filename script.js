@@ -1,10 +1,17 @@
 const words = ["abhor", "abide", "abler", "abode", "about", "above", "abuse", "ached", "aches", "acids", 
-               "acorn", "acres", "acrid", "acted", "actor", "acute", "adept", "adieu", "admit", "adobe", 
-               "adopt", "adore", "adorn", "adult", "aegis", "aeons", "afire", "after", "agent", "agile", 
-               "aging", "aglow", "agony", "aided", "aides", "ailed", "aimed", "aired", "aisle", "album", 
-               "alder", "alert", "alien", "alike", "alive", "aloes", "aloft", "alone", "along", "aloud", 
-               "alter", "altos", "amber", "amble", "amend", "amigo", "amity", "among", "amour", "ample", 
-               "amply", "amuse", "angel", "anger", "angle", "angry", "angst", "anime", "ankle", "antes"];
+    "backs", "bacon", "below", "belts", "bides", "bilge", "beast", "beams", "baked", "bathe", 
+    "cadet", "cages", "chant", "chain", "cheap", "chips", "choir", "choke", "churn", "cigar", 
+    "datum", "daunt", "death", "deals", "diets", "digit", "drums", "drugs", "ducts", "duels", 
+    "earth", "edict", "elbow", "empty", "endow", "enjoy", "entry", "envoy", "equal", "extra", 
+    "fable", "faint", "fears", "feast", "field", "films", "fluid", "flush", "frogs", "front", 
+    "games", "gates", "gears", "germs", "ghost", "giant", "girls", "given", "glare", "glove",
+    "habit", "hacks", "heads", "heart", "hinge", "hints", "hotel", "hours", "human", "humps",
+    "image", "imbue", "incur", "index", "irked", "irony", "items", "ivory", "inter", "ingot",
+    "jails", "jaunt", "jeans", "joins", "joker", "joust", "judge", "junks", "joint", "joked",
+    "kinds", "kings", "knead", "knife", "knits", "knobs", "knots", "knows", "laced", "lacks",
+    "lakes", "lambs", "large", "larva", "light", "liked", "loads", "loans", "lodge", "locks",
+    "magic", "maids", "mauve", "mayor", "meals", "meats", "medal", "media", "miser", "mower"];
+
 let secretWord = words[Math.floor(Math.random() * words.length)];
 let attempts = 0;
 const maxAttempts = 5;
